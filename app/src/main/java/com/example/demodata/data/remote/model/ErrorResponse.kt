@@ -1,0 +1,8 @@
+package com.example.demodata.data.remote.model
+
+import kotlinx.serialization.Serializable
+
+@Serializable
+data class ErrorResponse(
+    val detail: String
+)
